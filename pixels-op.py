@@ -17,7 +17,7 @@ while(True):
     drawing[0:200, 0:200] = piksele
 
 
-    cv2.imshow('frame', drawing)
+    cv2.imshow('Replacement', drawing)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
